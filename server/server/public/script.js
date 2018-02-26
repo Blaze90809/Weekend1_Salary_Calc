@@ -7,12 +7,10 @@ function readyNow() {
 
 }
 var employee = [];
-var clickCount = 0;
 
-console.log(clickCount);
+
 function firstName() {
   employee.length = 0; //employeeVar
-  clickCount++; //click counter to calculate monthly cost
   var $firstName = $('#firstName').val();
   var $lastName = $('#lastName').val();
   var $IDField = $('#ID').val();
